@@ -13,9 +13,9 @@ function initializePage() {
 		$('.jumbotron h1').text("Javascript is connected");
 		$("#testjs").text("I've been clicked!");
 		$(".jumbotron p").toggleClass("active");
-		$("#submitBtn").click(updateProject);
+		
 	});
-
+	$("#submitBtn").click(updateProject);
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
